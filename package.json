@@ -1,0 +1,26 @@
+{
+  "name": "kata",
+  "version": "1.0.0",
+  "description": "![](docs/file1.jpeg?raw=true)\r ![](docs/file2.jpeg?raw=true)\r ![](docs/file3.jpeg?raw=true)",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertorodriguezec/kata.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertorodriguezec/kata/issues"
+  },
+  "homepage": "https://github.com/robertorodriguezec/kata#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
