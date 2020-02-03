@@ -1,15 +1,15 @@
-var functions = require('./functions.js');
+var attack = require('./functions.js');
 
 test('Attacks', () =>{
-    expect(functions.atacar([2,1,1,0,0])).toBe(13);
+    expect(attack.attack([2,1,1,0,0])).toBe(13);
 });
 
 test('Attacks', () =>{
-    expect(functions.atacar([2,2,1,1,1])).not.toBe(31);
+    expect(attack.attack([2,2,1,1,1])).toBe(31);
 });
 
 test('Attacks', () =>{
-    expect(functions.atacar([2,2,2,1,1])).not.toBe(48);
+    expect(attack.attack([2,2,2,1,1])).toBe(40);
 });
 
 
